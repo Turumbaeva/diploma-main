@@ -1,0 +1,56 @@
+.BoxList img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.BoxList a {
+  text-decoration: none;
+  color: #000;
+}
+
+.BoxList a:hover {
+  color: #000;
+}
+
+.BoxList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #000;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  transition: 1s;
+}
+
+.BoxList:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.Categoryin {
+  margin-bottom: 100px;
+}
+
+.Productin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Productin .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.span{
+  color: #000;
+}

@@ -1,0 +1,87 @@
+.contacts-container {
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contacts-heading {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contact-label {
+  font-weight: bold;
+}
+
+.contact-message {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.contact-action {
+  margin-top: 20px;
+}
+
+.contact-button {
+  padding: 12px 24px;
+  font-size: 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts-container {
+    padding: 20px;
+  }
+
+  .contacts-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .contact-details {
+    font-size: 16px;
+  }
+
+  .contact-message {
+    font-size: 16px;
+  }
+
+  .contact-button {
+    font-size: 18px;
+  }
+}
+
+.network-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.network-icon {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.network-icon:hover {
+  color: #333;
+}

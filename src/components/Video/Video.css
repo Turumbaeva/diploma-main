@@ -1,0 +1,26 @@
+.video video {
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  height: calc(100vh - 110px);
+}
+
+.video video:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video {
+  text-align: center;
+}
+
+@media (max-width: 568px) {
+  .video video {
+    height: 250px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,34 @@
+.Auth {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.Auth .photoURL {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.Auth .Sign {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.Auth .off {
+  color: rgba(255, 153, 153, 0.647);
+}
+
+.Auth .Sign:hover {
+  color: #4169E1;
+}
+
+.Auth span {
+  display: flex;
+  align-items: center;
+}

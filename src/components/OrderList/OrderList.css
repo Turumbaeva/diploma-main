@@ -1,0 +1,103 @@
+/* OrderList.css */
+
+.OrderList {
+  margin-top: 20px;
+  max-width: 1200px;
+  margin:  0 auto;
+}
+
+.Order {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Order:hover {
+  background-color: rgb(251, 251, 251);
+}
+
+.Order h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.Order .details {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.Order .details > div {
+  flex: 1 1 50%;
+}
+
+.Order .details .label {
+  font-weight: bold;
+}
+
+.Order .details .value {
+  margin-left: 10px;
+}
+
+.Order .cart {
+  margin-top: 10px;
+}
+
+.Order .cart .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.Order .cart .item .name {
+  font-weight: bold;
+}
+
+.Order .cart .item .quantity {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .OrderList {
+    margin-top: 10px;
+  }
+
+  .Order {
+    padding: 8px;
+  }
+
+  .Order h2 {
+    font-size: 16px;
+  }
+
+  .Order .details > div {
+    flex-basis: 100%;
+  }
+
+  .Order .cart .item .quantity {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Order {
+    padding: 6px;
+  }
+
+  .Order h2 {
+    font-size: 14px;
+  }
+
+  .Order .details .label,
+  .Order .cart .item .quantity {
+    font-size: 12px;
+  }
+}
