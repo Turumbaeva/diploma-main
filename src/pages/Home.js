@@ -1,5 +1,5 @@
 import CategoryList from "../components/CategoryList/CategoryList";
-import Music from "../components/Music/Music";
+import Music from "../components/DriveTime/DriveTime";
 import Video from "../components/Video/Video";
 
 export default function Home() {

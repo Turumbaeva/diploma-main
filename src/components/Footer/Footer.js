@@ -19,6 +19,7 @@ function Footer() {
   ));
   return (
     <footer className="footer container">
+      <hr></hr>
       <div className="footer-container">
         <div className="footer-column">
           <h4 className="footer-heading">Categories</h4>
@@ -48,21 +49,21 @@ function Footer() {
         </div>
         <div className="footer-column">
           <h4 className="footer-heading">Contact</h4>
-          <p>123 Music Street</p>
-          <p>City, State</p>
+          <p>DriveTime</p>
+          <p>City, Bishkek</p>
           <Link
             target="_blank"
             rel="noreferrer"
-            to="tel:+996 502 01 92 74"
+            to="tel:+996 706 810 624"
           >
-            +996 502 01 92 74
+            +996 706 810 624
           </Link>
           <Link
             target="_blank"
             rel="noreferrer"
-            to="mailto:kemelbekovdaniyar0@gmail.com"
+            to="mailto:turumbaeva4@gmail.com"
           >
-            kemelbekovdaniyar0@gmail.com
+          turumbaeva4@gmail.com
           </Link>
         </div>
         <div className="footer-column">
@@ -101,7 +102,7 @@ function Footer() {
       <hr />
       <div className="container">
         <div className="info">
-          <p><strong>Howard ong.</strong>Music studio</p>
+          <p><strong>Howard ong.</strong>DriveTime</p>
           <Logo />
         </div>
       </div>

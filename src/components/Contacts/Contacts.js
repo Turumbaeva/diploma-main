@@ -11,13 +11,13 @@ const Contacts = () => {
       <h2 className="contacts-heading">Get in Touch</h2>
       <div className="contact-details">
         <p>
-          <strong className="contact-label">Address:</strong> 123 Music Street, Cityville, State, Country
+          <strong className="contact-label">Address:</strong>  Drive Time Bishkek City, 162 Moskow
         </p>
         <p>
-          <strong className="contact-label">Phone:</strong> +996 502 01 92 74
+          <strong className="contact-label">Phone:</strong> +996 706 810 624
         </p>
         <p>
-          <strong className="contact-label">Email:</strong> kemelbekovdaniyar0@gmail.com
+          <strong className="contact-label">Email:</strong> turumbaeva4@gmail.com
         </p>
         <p>
           <strong className="contact-label">Working Hours:</strong> Monday to Friday, 9:00 AM - 6:00 PM

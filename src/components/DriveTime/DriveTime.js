@@ -1,9 +1,9 @@
-import "./Music.css"
+import "./DriveTime.css"
 import img from "../../assets/whayguitars.jpg"
 import img1 from "../../assets/string.jpg"
 
 
-export default function Music() {
+export default function DriveTime() {
   return (
     <>
     <div className="tit">Explore the world of cars with DriveTime</div>
