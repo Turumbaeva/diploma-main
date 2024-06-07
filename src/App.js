@@ -47,7 +47,7 @@ function App() {
 
     onAuthChange(user => {
       if (user) {
-        user.isAdmin = user.email === "kemelbekovdaniyar0@gmail.com"
+        user.isAdmin = user.email === "turumbaeva4@gmail.com"
       }
 
 

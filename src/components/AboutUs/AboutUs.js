@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div className="about-text">
           <h3>Welcome to Our DriveTime</h3>
           <p>
-            At our online music store, we are passionate about music and providing musicians with the best instruments and accessories. We believe that music has the power to inspire, connect, and bring joy to people's lives.
+            At our online cars store, we are passionate about car and providing musicians with the best instruments and accessories. We believe that cars has the power to inspire, connect, and bring joy to people's lives.
           </p>
           <p>
             With our extensive collection of musical instruments, ranging from guitars and pianos to drums and keyboards, we aim to cater to the needs of musicians of all skill levels. Our instruments are carefully selected for their quality and craftsmanship, ensuring that you receive only the best.
