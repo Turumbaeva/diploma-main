@@ -46,6 +46,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  backdrop-filter: blur(70px);
   width: 100%;
   max-width: 1200px;
 }
