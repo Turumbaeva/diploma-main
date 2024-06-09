@@ -2,8 +2,8 @@
 
 * {
   box-sizing: border-box;
+  font-weight: 700;
   margin: 0;
-  font-family: 'Playfair Display', serif;
 }
 
 .container {

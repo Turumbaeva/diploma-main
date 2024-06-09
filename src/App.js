@@ -11,7 +11,6 @@ import { onAuthChange, onCategoriesLoad, onOrdersLoad, onProductsLoad,  } from "
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import ThankYou from "./pages/ThankYou";
-import Orders from "./pages/Orders";
 
 export const AppContext = createContext({
   categories: [],
@@ -70,7 +69,6 @@ function App() {
             <Route path="*" element={<NotFound />} />
             <Route path="/products/:slug" element={<Product />} />
             <Route path="/thank-you" element={<ThankYou />} />
-            <Route path="/orders" element={<Orders />} />
           </Routes>
         </Layout>
       </AppContext.Provider>

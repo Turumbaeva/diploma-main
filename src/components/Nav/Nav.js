@@ -28,9 +28,7 @@ export default function Nav() {
           <li className="NavItem">
             <NavLink to="/deliver" className="underline-one" onClick={scrollToTop}>Deliver</NavLink>
           </li>
-          <li className="NavItem">
-            <NavLink to="/orders" className="underline-one" onClick={scrollToTop}>Orders</NavLink>
-          </li>
+
         </ul>
       </nav>
     </div>
