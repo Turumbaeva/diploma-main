@@ -1,5 +1,6 @@
 import React from 'react';
 import './Delivers.css';
+import {video1} from "../../assets/"
 
 function Delivers() {
   return (
@@ -41,6 +42,7 @@ function Delivers() {
           <li>Additional charges may apply for special delivery services.</li>
         </ul>
       </div>
+      
     </div>
   );
 }
