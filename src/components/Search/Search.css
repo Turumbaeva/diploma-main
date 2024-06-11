@@ -11,7 +11,7 @@
   background: none;
   border: 0;
   border-radius: 15px;
-  color: #222;
+  color: #4169E1;;
   height: 30px;
   text-align: center;
   outline: none;
@@ -26,11 +26,11 @@
   top: 0;
 }
 .Search .searcher {
-  color: #222;
+  color: #4169E1;;
   margin: 8px;
 }
 .Search input::placeholder {
-  color: #222;
+  color: #4169E1;;
 }
 
 @media (max-width: 640px) {
