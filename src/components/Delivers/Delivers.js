@@ -1,6 +1,5 @@
 import React from 'react';
 import './Delivers.css';
-import {video1} from "../../assets/"
 
 function Delivers() {
   return (

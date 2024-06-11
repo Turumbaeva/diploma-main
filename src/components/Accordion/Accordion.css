@@ -5,8 +5,8 @@
 }
 
 .accordion-title {
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #FFFFE0;;
+  color: #4169E1;;
   padding: 10px;
   width: 100%;
   text-align: left;
@@ -16,16 +16,16 @@
 }
 
 .accordion-title:hover {
-  background-color: #ddd;
+  background-color: #FFFFE0;
 }
 
 .accordion-content {
-  background-color: #f9f9f9;
+  background-color: #FFFFE0;
   padding: 10px;
-  border-left: 2px solid #ddd;
-  border-right: 2px solid #ddd;
-  border-bottom: 2px solid #ddd;
+  border-left: 2px solid #FFFFE0;
+  border-right: 2px solid #FFFFE0;
+  border-bottom: 2px solid #FFFFE0;
 }
 .about-heading{
-    color: #f9f9f9;
+    color: #FFFFE0;
 }
