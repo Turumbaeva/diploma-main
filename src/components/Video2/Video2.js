@@ -1,5 +1,5 @@
-import video from '../../assets/video.mp4'
-import './Video.css'
+import video from '../../assets/delivery_video.mp4'
+import './Video2.css'
 
 
 export default function Video() {
@@ -12,5 +12,3 @@ export default function Video() {
     </div>
   )
 }
-
-

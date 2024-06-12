@@ -1,8 +1,7 @@
 .Drawer .content {
   padding: 1rem 0;
-  background-color:4169E1;
+  background-color:#4169E1;
   color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   width: 260px;
   overflow: hidden;
 

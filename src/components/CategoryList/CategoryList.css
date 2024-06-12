@@ -46,7 +46,7 @@
 }
 
 .CategoryList img:hover {
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 12px #FFFFE0;;
   transition: 0.5s;
   border-radius: 10px;
 }

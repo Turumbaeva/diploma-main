@@ -14,7 +14,7 @@ export default function OrderForm() {
   }
 
   if (!user) {
-    return <h2>You must be logged in to create an order</h2>;
+    return <h2></h2>;
   }
 
   function onFormSubmit(event) {

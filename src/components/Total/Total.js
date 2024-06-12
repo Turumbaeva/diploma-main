@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { AppContext } from "../../App";
+import './Total.css'
 
 function Total({ onOrder }) {
   const { products, cart } = useContext(AppContext);
@@ -14,9 +15,9 @@ function Total({ onOrder }) {
 
   return (
     <div className="Total">
-      <h2>Total</h2>
-      <p>Items: {totalItems}</p>
-      <p>Price: ${totalPrice}</p>
+      <h2 className="total">Total</h2>
+      <p className="items">Items: {totalItems}</p>
+      <p className="price">Price: ${totalPrice}</p>
     </div>
   );
 }

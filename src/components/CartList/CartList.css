@@ -8,9 +8,6 @@
   transition: background-color 0.3s;
 }
 
-.CartItem:hover {
-  background-color: #f9f9f9;
-}
 
 .CartItem img {
   width: 80px;
@@ -23,7 +20,7 @@
 
 .CartItem a {
   font-size: 18px;
-  color: #333;
+  color: #FFFFE0;
   text-decoration: none;
   margin-bottom: 5px;
   display: block;
@@ -54,15 +51,17 @@
 
 .CartItem span {
   font-size: 16px;
-  color: #333;
+  color: #FFFFE0;
   margin-bottom: 10px;
   font-weight: bold;
 }
-
+.CartItem span:hover{
+  color: #000;
+}
 .CartItem button {
   padding: 8px 16px;
   font-size: 14px;
-  background-color: #222;
+  background-color: #FFFFE0;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -70,11 +69,11 @@
   transition: background-color 0.3s;
 }
 
-.CartItem button:hover {
+/* .CartItem button:hover {
   background-color: #000;
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+} */
 
 @media screen and (max-width: 768px) {
   .CartItem {
