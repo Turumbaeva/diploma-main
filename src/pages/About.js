@@ -10,17 +10,19 @@ export default function About() {
       <div className="accordion">
         <Accordion
   
-          title="Our Story"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam."
+          title="How do you determine the trade-in value of my car?"
+          content="We use a combination of market data, vehicle condition, and mileage to determine the trade-in value.
+"
         />
         <Accordion
-          title="Our Mission"
-          content="Vestibulum quis quam vel quam bibendum fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh."
+          title="Can I see the maintenance records for this car?"
+          content="Absolutely, I’ll get the records for you right now. We keep detailed records for all our vehicles.
+"
         />
         <Accordion
 
-          title="Our Values"
-          content="Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna mollis ornare vel eu leo."
+          title="How many previous owners has this car had?"
+          content="This car has had one previous owner who took excellent care of it."
         />
       </div>
     </div>
